@@ -11,3 +11,182 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+ background-color: whitesmoke;
+  display: grid;
+ text-align: center;
+ margin: 10%;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 50px));
+  align-items: center;
+  justify-content: center;
+
+}
+
+.video-extras-sparkbar-likes { float: left; height: 2px; background: #55ab05 ; }
+
+.video-extras-sparkbar-dislikes {
+float: left;
+height: 2px;
+background: #D11919 ;
+}
+
+.center{
+  margin: 0 auto;
+  display: inline-block;
+  border-radius: 20px 20px 20px 20px;
+
+
+
+
+
+
+}
+
+.numberElement {
+  padding: 10%;
+}
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.cadre{
+
+text-align: center;
+border: 5px solid #1C6EA4;
+border-radius: 10px;}
+
+
+.tt{
+  
+  margin:100px;
+
+} 
+
+.Buttons 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.aaa{
+  margin: 5px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.flex
+{
+  display : flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.right {
+  float:  right
+}
+
+.left {
+  float:  left
+}
+
+.text-responsiv{
+  font-size: 3% px;
+
+}
+.btnlike{
+  
+  color: #fff;
+  background-color:rgb(144, 223, 255);
+  border-color: #ffffff;
+  position:relative
+}
+
+.example_a {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ed3330;
+	padding: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.btn_delette{
+  padding: 5px;
+}
+
+
+.search{
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+.titre {
+  font-weight: bold;
+}
+
+.SelectSize
+{ margin: 0 auto;
+  padding: 10px;
+ }
+
+
+.pagi {
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+
+}
+
+.pagi button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.pagi button.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagi button:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.buttonActive { background:'red' } 
+
+.invisible {
+  display: none;
+  visibility: hidden;
+}

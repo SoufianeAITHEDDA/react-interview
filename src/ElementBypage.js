@@ -2,7 +2,7 @@ import {React,useState } from "react";
 import { useDispatch } from 'react-redux';
 import {useEffect} from 'react';
 import Select from "react-select"
-import { element_parpage, changepage,recordPerPage } from "./Actions";
+import { element_parpage, changepage } from "./Actions";
 
 
 
@@ -42,10 +42,15 @@ const RecordPerPa = () => {
      
   return (
       
-    <div id="App">
-      <Select options = {options}
+    <div className="search">
+        <h1>Number of elements</h1>
+        <Select 
+        className="SelectSize"
+        options = {options}
         value={selected}
         onChange={setSelected} />
+
+
     </div>
   
   )

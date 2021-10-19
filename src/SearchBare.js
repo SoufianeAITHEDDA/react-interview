@@ -34,7 +34,7 @@ const Search = () => {
   useEffect (() =>{
     dispatch(getSelectededCategory(selected))
     dispatch(changepage(0))
-  if (search.length != 0 ) {dispatch(getNombre_element(search.length))} 
+  if (search.length !== 0 ) {dispatch(getNombre_element(search.length))} 
         else{dispatch(getNombre_element(affiche.length))}
   },
   [search.length]
@@ -49,6 +49,7 @@ const Search = () => {
     <div className="search">
       <h1>Select Categories</h1>
       <MultiSelect
+      className="SelectSize"
         options={options}
         value={selected}
         onChange= {setSelected}
